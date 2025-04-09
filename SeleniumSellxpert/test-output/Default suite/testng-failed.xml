@@ -5,12 +5,11 @@
     <classes>
       <class name="sellxpert.LeadTest">
         <methods>
-          <include name="generateReport"/>
-          <include name="testLeadEdit"/>
-          <include name="setup"/>
-          <include name="captureFailure"/>
-          <include name="setupReport"/>
+          <include name="deleteLead"/>
+          <include name="setUp"/>
+          <include name="editLead"/>
           <include name="tearDown"/>
+          <include name="addCustomer" invocation-numbers="1 3"/>
         </methods>
       </class> <!-- sellxpert.LeadTest -->
     </classes>
