@@ -185,10 +185,7 @@ public class Lead {
         	                WebElement panField1 = driver.findElement(By.name("pan_no"));
         	                panField1.clear();
         	                panField1.sendKeys(user.getpan());
-        	                
-        	                
-        	                
-        	
+        	                        	                        	                      
         	                driver.findElement(By.xpath("//*[@id='quickForm_customer']/div/div[2]/div[6]/div[2]/div/div/button")).click();
         	
         	                // Handle mobile number validation
